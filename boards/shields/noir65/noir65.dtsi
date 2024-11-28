@@ -93,6 +93,7 @@
 / {
     chosen {
         zmk,physical-layouts = &noir65_layout;
+        zephyr,display = &oled;
     };
 
     default_transform: keymap_transform_0 {
