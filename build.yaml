@@ -19,7 +19,6 @@
 include:
   - board: nice_nano_v2
     shield: noir65_left display_042
-    cmake-args: -DCONFIG_ZMK_DISPLAY=y
     snippet: studio-rpc-usb-uart
     artifact-name: noir65_leftwith042
   - board: nice_nano_v2

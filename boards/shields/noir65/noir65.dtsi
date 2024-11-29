@@ -110,11 +110,9 @@
                                                                                                     RC(4,11) 
         >;
     };
-
-
 };
 
-&noir65_layout{
+    &noir65_layout{
 
 	transform = <&default_transform>;
 
@@ -122,9 +120,7 @@
 
 };
 
-
-
-zephyr_udc0: &usbd { 
+    zephyr_udc0: &usbd { 
 
     compatible = "nordic,nrf-usbd"; 
 
