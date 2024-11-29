@@ -67,8 +67,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-down-bold$$
   MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
