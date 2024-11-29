@@ -7,13 +7,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif
-
-if SHIELD_NOIR65_LEFT || SHIELD_NOIR65_RIGHT
-
-config ZMK_SPLIT
-    default y
-
 if ZMK_DISPLAY
 
 config I2C
@@ -40,5 +33,12 @@ endchoice
 endif # LVGL
 
 endif # ZMK_DISPLAY
+
+endif # SHIELD_NOIR65_LEFT
+
+if SHIELD_NOIR65_LEFT || SHIELD_NOIR65_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif
